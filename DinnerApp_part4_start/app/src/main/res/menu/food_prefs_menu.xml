@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/vegan_pref"
+            android:title="Vegan"/>
+        <item android:id="@+id/vegetarian_pref"
+             android:title="Vegetarian" />
+        <item android:id="@+id/fish_pref"
+             android:title="Prefer Fish" />
+        <item android:id="@+id/meat_pref"
+            android:title="Prefer Meat" />
+        <item android:id="@+id/unrestricted_pref"
+             android:title="No restriction" />
+    </menu>

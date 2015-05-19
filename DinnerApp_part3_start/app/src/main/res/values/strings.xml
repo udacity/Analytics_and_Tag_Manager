@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">What\'s for Dinner?</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- "Extras" for Intents -->
+    <string name="selected_dinner">selectedDinner</string>
+
+    <!-- Headings for info boxes -->
+    <string name="dinner_heading">May we suggest...</string>
+    <string name="show_recipe_heading">And the recipe is ...</string>
+    <string name="order_online_heading">Order Dinner</string>
+    <string name="dislike_dinner_heading">Sorry about that! </string>
+
+    <!-- Placeholder text for info boxes -->
+    <string name="order_online">This is where you will order your dinner online ...</string>
+    <string name="recipe">The recipe will appear here, with ingredient list and
+        everything ...</string>
+    <string name="dislike_dinner"> We\'re sorry you didn\'t like that suggestion.
+       We have eradicated it forever, you will never be bothered by it again. \n\n\nAt least
+       that will be true when the eradication functionality has been implemented.</string>
+
+</resources>

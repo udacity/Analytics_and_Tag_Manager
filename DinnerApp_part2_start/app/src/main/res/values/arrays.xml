@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="vegetarian_meals">
+        <item>"Mushroom omelette and fried snow peas"</item>
+        <item>"Egg and tomato salad"</item>
+    </string-array>
+
+    <string-array name="vegan_meals">
+        <item>"Sweet corn and lentil soup"</item>
+        <item>"Tofu and coriander salad"</item>
+        <item>"Eggplant and apple lasagne"</item>
+    </string-array>
+
+    <string-array name="meat_meals">
+        <item>"Roast beef with yorkshire pudding"</item>
+        <item>"Chicken kebabs with french fries"</item>
+        <item>"Lamb curry with braised carrots"</item>
+    </string-array>
+
+    <string-array name="fish_meals">
+        <item>"Baked cod with miso sauce"</item>
+        <item>"Smoked salmon and brie salad"</item>
+        <item>"Crispy calamari with olives and grapes"</item>
+</string-array>
+
+</resources>
