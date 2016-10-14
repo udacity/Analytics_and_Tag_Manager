@@ -27,23 +27,23 @@
         <activity
             android:name=".ShowDinnerActivity"
             android:label=""
-            android:parentActivityName=".ShowDinnerActivity" >
+            android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.dinnerapp.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".ShowAllDinnersActivity"
             android:label=""
-            android:parentActivityName=".ShowAllDinnersActivity" >
+            android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.dinnerapp.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".ShowRecipeActivity"
             android:label=""
-            android:parentActivityName="com.example.android.dinnerapp.ShowRecipeActivity" >
+            android:parentActivityName=".ShowDinnerActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ShowDinnerActivity" />
@@ -52,7 +52,7 @@
         <activity
             android:name=".OrderDinnerActivity"
             android:label=""
-            android:parentActivityName=".OrderDinnerActivity" >
+            android:parentActivityName=".ShowDinnerActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ShowDinnerActivity" />
@@ -61,7 +61,7 @@
         <activity
             android:name=".RemoveMealActivity"
             android:label=""
-            android:parentActivityName="com.example.android.dinnerapp.RemoveMealActivity" >
+            android:parentActivityName=".ShowDinnerActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ShowDinnerActivity" />
@@ -70,7 +70,7 @@
         <activity
             android:name=".ShowDailySpecialActivity"
             android:label=""
-            android:parentActivityName="com.example.android.dinnerapp.ShowDailySpecialActivity" >
+            android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
